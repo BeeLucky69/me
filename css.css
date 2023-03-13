@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.big-div1, .big-div2, .big-div3, .big-div4, .about-div1, .number-div, .mail-div, .about-h1, .about-div1, .about-text, .about-pics  {
+    width: 1519px;
+    float: left;
+}
+
+.big-div1 {
+    background-color: rgb(230, 191, 191);
+    height: 150px;
+}
+
+.logo-div {
+    float: left;
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.logo-div img {
+    float: left;
+    width: 120px;
+}
+
+.logo-a {
+    float: right;
+    margin-top: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 35px;
+    padding: 20px 25px;
+    border-radius: 50px;
+}
+
+.logo-a:hover {
+    transition: all 0.2s;
+    background-color: black;
+    color: white;
+}
+
+.big-div2 {
+    height: 360px;
+    margin-top: 50px;
+}
+
+.tsu-div {
+    float: left;
+    width: 800px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.tsu-pic1 {
+    width: 650px;
+    float: left;
+}
+
+.tsu-pic1 img {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.big-div3 {
+    height: 450px;
+    margin-top: 50px;
+}
+
+.big-div3 > .tsu-div {
+    float: right;
+}
+
+.big-div3 > .tsu-pic1 {
+    float: left;
+    margin-top: 50px;
+}
+
+.big-div4 {
+    height: 150px;
+    background-color: aqua;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    float: left;
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.footer-logo img {
+    float: left;
+    width: 120px;
+    margin-top: 15px;
+}
+
+.footer-text {
+    float: left;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 500px;
+    font-weight: bold;
+}
+
+.about-text {
+    width: 1300px;
+    margin-left: 100px;
+}
+
+.number-div {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.mail-div {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 140px;
+}
+
+.about-h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about-text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about-pics img {
+    float: left;
+    width: 600px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
